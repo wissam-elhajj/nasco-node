@@ -9,7 +9,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send("NASCO Backend");
+  res.send("NASCO Backend V1");
 });
 
 app.listen(PORT, () => {
